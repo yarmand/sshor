@@ -1,0 +1,4 @@
+sshor
+=====
+
+SSH automatic callback

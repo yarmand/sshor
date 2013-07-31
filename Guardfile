@@ -121,7 +121,7 @@ module ::Guard
   end
 end
 
-guard :sshor , :data_folder => 'tunnel', :ssh_host => 'somebody@remote.server' , :socks_port => 8033, :logfilename => 'sshor.log' do
+guard :sshor , :data_folder => 'tunnel', :ssh_host => 'yann@yarmand.cloudapp.net' , :socks_port => 8033, :logfilename => 'sshor.log' do
   watch(%r{^tunnel/.*-open$})
   watch(%r{^tunnel/.*-close$})
 end

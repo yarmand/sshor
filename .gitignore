@@ -19,3 +19,4 @@ doc/
 .bin
 *.log
 Gemfile.lock
+daemon-osx.sh

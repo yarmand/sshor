@@ -6,4 +6,4 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 cd $HERE
 
-guard
+guard -i

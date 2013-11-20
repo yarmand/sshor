@@ -87,7 +87,7 @@ module ::Guard
       fork do
         File.open(pidfile,'w') { |f| f.puts(Process.pid)}
         log "   pid: #{Process.pid}"
-        system "ssh -R #{port}:localhost:22 #{@ssh_host}"
+        system "ssh -fN -R #{port}:localhost:22 #{@ssh_host}"
       end
     end
 
